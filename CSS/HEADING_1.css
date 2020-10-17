@@ -1,0 +1,16 @@
+﻿#HEADING {
+	font-family: "Times New Roman", Times, serif;
+	font-size: xx-large;
+	font-weight: lighter;
+	font-style: normal;
+	font-variant: normal;
+	color: #FFFFFF;
+	line-height: 60px;
+	vertical-align: middle;
+	text-align: center;
+	letter-spacing: 1ex;
+	background-color: #007A60;
+	margin-top: 10px;
+	width: 100%;
+	height: 60px;
+}

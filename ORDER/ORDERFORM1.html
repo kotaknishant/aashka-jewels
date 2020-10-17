@@ -1,0 +1,225 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="en-us" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>ORDER FORM</title>
+<style type="text/css">
+
+.auto-style2 {
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	font-size: medium;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+}
+#div2{
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: normal;
+	font-variant: normal;
+	color: #897358;
+	text-align: center;
+	text-decoration: underline;
+	margin-left: 5%;
+}
+.auto-style5 {
+	border-style: none;
+	border-width: medium;
+	text-align: right;
+}
+.auto-style6 {
+	border: 1px solid #897358;
+	margin-right: 15%;
+	margin-left: 20%;
+}
+.auto-style9 {
+	border-style: none;
+	border-width: medium;
+}
+.auto-style10 {
+	text-align: center;
+	color: #FFFFFF;
+}
+.auto-style11 {
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #007A60;
+}
+.auto-style12 {
+	border: medium none #897358;
+	margin-right: 15%;
+	margin-left: 20%;
+}
+</style>
+<base target="_top" />
+<meta content="PLACE THE ORDER HERE" name="description" />
+</head>
+
+<body>
+
+<div id="div1" style="text-align: center; background-color: #007A60; color: #FFFFFF; font-weight: lighter; font-style: normal; font-variant: normal; font-family: 'Times New Roman', Times, serif;"><h1>AASHKA JEWELS</h1>
+</div>
+<div id="div2">
+<h3>ORDER FORM</h3>
+</div>
+<form id="form1" runat="server">
+	<table style="width: 60%" class="auto-style6">
+		<tr>
+			<td style="width: 237px" class="auto-style9">Full Name</td>
+			<td class="auto-style9"><input name="Text1" style="width: 450px" type="text" /><asp:RequiredFieldValidator id="RequiredFieldValidator2" runat="server" ErrorMessage="RequiredFieldValidator"></asp:RequiredFieldValidator>
+			&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="width: 237px" class="auto-style9">Organization</td>
+			<td class="auto-style9"><input name="Text2" style="width: 300px" type="text" />&nbsp;<asp:RequiredFieldValidator id="RequiredFieldValidator3" runat="server" ErrorMessage="* marked fields cannot be left blank"></asp:RequiredFieldValidator>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 237px" class="auto-style9">Street Address</td>
+			<td class="auto-style12"><textarea name="TextArea1" style="width: 300px; height: 50px"></textarea>&nbsp;<asp:RequiredFieldValidator id="RequiredFieldValidator4" runat="server" ErrorMessage="RequiredFieldValidator"></asp:RequiredFieldValidator>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 237px" class="auto-style9">City</td>
+			<td class="auto-style9"><input name="Text3" style="width: 135px" type="text" />&nbsp;<asp:RequiredFieldValidator id="RequiredFieldValidator5" runat="server" ErrorMessage="RequiredFieldValidator"></asp:RequiredFieldValidator>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 237px" class="auto-style9">State/Province</td>
+			<td class="auto-style9"><input name="Text4" style="width: 135px" type="text" />&nbsp;<asp:RequiredFieldValidator id="RequiredFieldValidator6" runat="server" ErrorMessage="*marked fields are mandatory"></asp:RequiredFieldValidator>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 237px" class="auto-style9">Country</td>
+			<td class="auto-style9"><input name="Text5" style="width: 135px" type="text" />&nbsp;<asp:RequiredFieldValidator id="RequiredFieldValidator7" runat="server" ErrorMessage="RequiredFieldValidator"></asp:RequiredFieldValidator>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 237px" class="auto-style9">Zip Code</td>
+			<td class="auto-style9"><input name="Text6" style="width: 134px" type="text" />&nbsp;<asp:RequiredFieldValidator id="RequiredFieldValidator8" runat="server" ErrorMessage="RequiredFieldValidator"></asp:RequiredFieldValidator>
+			<asp:RequiredFieldValidator id="RequiredFieldValidator9" runat="server" ErrorMessage="RequiredFieldValidator"></asp:RequiredFieldValidator>
+			<asp:RegularExpressionValidator id="RegularExpressionValidator1" runat="server" ErrorMessage="RegularExpressionValidator"></asp:RegularExpressionValidator>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 237px" class="auto-style9">Phone</td>
+			<td class="auto-style9"><input name="Text7" style="width: 250px" type="text" /><asp:RegularExpressionValidator id="RegularExpressionValidator2" runat="server" ErrorMessage="RegularExpressionValidator"></asp:RegularExpressionValidator>
+			&nbsp;<asp:RequiredFieldValidator id="RequiredFieldValidator10" runat="server" ErrorMessage="RequiredFieldValidator"></asp:RequiredFieldValidator>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 237px" class="auto-style9">Email</td>
+			<td class="auto-style9"><input name="Text8" style="width: 250px" type="text" /><asp:RegularExpressionValidator id="RegularExpressionValidator3" runat="server" ErrorMessage="RegularExpressionValidator"></asp:RegularExpressionValidator>
+			&nbsp;<asp:RequiredFieldValidator id="RequiredFieldValidator11" runat="server" ErrorMessage="RequiredFieldValidator"></asp:RequiredFieldValidator>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 237px; height: 30px;" class="auto-style9">Url</td>
+			<td class="auto-style9" style="height: 30px"><input name="Text9" style="width: 250px" type="text" />&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="auto-style9"  colspan="2"><b>Please Provide Product Information</b></td>
+		</tr>
+		<tr>
+			<td style="width: 237px" class="auto-style9">Item Name</td>
+			<td class="auto-style9">
+			<select name="Item_Name" style="width: 150px; height: 22px;" class="auto-style2">
+		<option selected="selected">PLEASE SELECT</option>
+		<option value="BANGLES">BANGLES</option>
+		<option value="BRACELET">BRACELET</option>
+		<option value="CHAIN">CHAIN</option>
+		<option value="EARRINGS">EARRINGS</option>
+		<option value="NECKLACE">NECKLACE</option>
+		<option>NOSE PIN</option>
+		<option value="PENDANT">PENDANT</option>
+		<option value="TANMANIYA">TANMANIYA</option>
+		<option value="PENDANT">PENDANT</option>
+		</select><asp:RequiredFieldValidator id="RequiredFieldValidator12" runat="server" ErrorMessage="RequiredFieldValidator"></asp:RequiredFieldValidator>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 237px" class="auto-style9">Item Catogary</td>
+			<td class="auto-style9"> 
+		<select name="Item_Catogary" style="width: 150px">
+		<option selected="selected" value="PLEASE SELECT">PLEASE SELECT</option>
+		<option value="DIAMOND">DIAMOND</option>
+		<option value="GOLD">GOLD</option>
+		<option value="SILVER">SILVER</option>
+		</select><asp:RequiredFieldValidator id="RequiredFieldValidator13" runat="server" ErrorMessage="RequiredFieldValidator"></asp:RequiredFieldValidator>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 237px" class="auto-style9">Design Code</td>
+			<td class="auto-style9"><input name="Text10" style="width: 150px" type="text" /><asp:RegularExpressionValidator id="RegularExpressionValidator4" runat="server" ErrorMessage="RegularExpressionValidator"></asp:RegularExpressionValidator>
+			&nbsp;<asp:RequiredFieldValidator id="RequiredFieldValidator14" runat="server" ErrorMessage="RequiredFieldValidator"></asp:RequiredFieldValidator>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 237px" class="auto-style9">Design Image</td>
+			<td class="auto-style9">
+			<asp:FileUpload id="FileUpload1" runat="server" Width="215px" />
+			&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="width: 237px" class="auto-style9">Quantity</td>
+			<td class="auto-style9"><input name="Text11" style="width: 51px" type="text" /><asp:RegularExpressionValidator id="RegularExpressionValidator5" runat="server" ErrorMessage="RegularExpressionValidator"></asp:RegularExpressionValidator>
+			&nbsp;<asp:RequiredFieldValidator id="RequiredFieldValidator15" runat="server" ErrorMessage="RequiredFieldValidator"></asp:RequiredFieldValidator>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 237px" class="auto-style12">Special Comments</td>
+			<td class="auto-style9"><textarea name="TextArea2" style="width: 300px; height: 50px"></textarea>&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="width: 237px; height: 30px;" class="auto-style9">Size</td>
+			<td class="auto-style9" style="height: 30px"><input name="Text12" style="width: 90px" type="text" />&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="auto-style9" colspan="2"><strong>Please Provide Billing Information</strong></td>
+		</tr>
+		<tr>
+			<td style="width: 237px" class="auto-style9">Order no.</td>
+			<td class="auto-style9">
+			<input name="Text15" style="width: 200px" type="text" tabindex="1" value="20201" />&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="width: 237px" class="auto-style9">Date &amp; Time</td>
+			<td class="auto-style9">
+			<!--webbot bot="Timestamp" S-Type="EDITED" S-Format="%d/%m/%y %H:%M:%S" startspan -->30/06/20 16:34:46<!--webbot bot="Timestamp" endspan i-checksum="26143" -->&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="width: 237px" class="auto-style9">Account Name</td>
+			<td class="auto-style9"><input name="Text13" style="width: 200px" type="text" />&nbsp;<asp:RequiredFieldValidator id="RequiredFieldValidator16" runat="server" ErrorMessage="RequiredFieldValidator"></asp:RequiredFieldValidator>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 237px" class="auto-style9">GST/PAN/TIN Nos.</td>
+			<td class="auto-style9"><input name="Text14" style="width: 200px" type="text" /><asp:RegularExpressionValidator id="RegularExpressionValidator6" runat="server" ErrorMessage="RegularExpressionValidator"></asp:RegularExpressionValidator>
+			&nbsp;<asp:RequiredFieldValidator id="RequiredFieldValidator17" runat="server" ErrorMessage="RequiredFieldValidator"></asp:RequiredFieldValidator>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 237px" class="auto-style9">TERMS&amp; CONDITION</td>
+			<td class="auto-style9">
+			<textarea name="_Terms _&amp; CONDITION" style="width: 443px; height: 319px" tabindex="2">1)50% of the estimated amount of order to be paid while confirming the order.2)Order will be processed after 48 hours or 2 working days on receipt of amount.3)If at a time customer wants to cancel/modify the order no amount will be deducted if the said order is cancelled in 48 hours or 2 working days,after that 15% of the estimated amount will be deducted and rest 35% will be refunded through banking transaction only.4)Estimated delivery time 30 days from date of order to be calculated.5)images are indicative only and that original product may slightly differ in terms of color and look.6)seller reserves all rights.7) subject to sellers jurisdiction.</textarea>&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="text-align:left" class="auto-style5" colspan="2" >
+			<input name="Checkbox2" type="checkbox" />I have read 
+	the terms and conditions of order and agree with same.<asp:RequiredFieldValidator id="RequiredFieldValidator18" runat="server" Display="Dynamic" ErrorMessage="RequiredFieldValidator"></asp:RequiredFieldValidator>
+			</td>
+		</tr>
+		<tr>
+			<td class="auto-style5" colspan="2">
+			<p style="text-align: center">
+			<input name="Submit1" style="width: 85px" type="submit" value="SUBMIT" />&nbsp;<input name="Reset1" style="width: 85px" type="reset" value="RESET" /></p></td>
+		</tr>
+	</table>
+</form>
+<p class="auto-style10"><strong><span class="auto-style11">HOME</span></strong></p>
+</body>
+
+</html>
