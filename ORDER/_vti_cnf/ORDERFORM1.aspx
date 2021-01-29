@@ -1,14 +1,14 @@
 vti_encoding:SR|utf8-nl
 vti_author:SR|lenovo-PC\\lenovo
 vti_modifiedby:SR|lenovo-PC\\lenovo
-vti_timelastmodified:TR|13 Jul 2020 12:46:44 -0000
+vti_timelastmodified:TR|15 Jan 2021 14:36:41 -0000
 vti_timecreated:TR|24 May 2020 14:01:30 -0000
 vti_title:SR|ORDER FORM
 vti_extenderversion:SR|12.0.0.0
-vti_backlinkinfo:VX|
-vti_nexttolasttimemodified:TW|13 Jul 2020 12:30:16 -0000
-vti_cacheddtm:TX|13 Jul 2020 12:46:44 -0000
-vti_filesize:IR|15115
+vti_backlinkinfo:VX|COLLECTION/DIAMOND\\ JEWELLERY/EARRINGS/AJER20209.html
+vti_nexttolasttimemodified:TW|15 Jan 2021 14:35:29 -0000
+vti_cacheddtm:TX|15 Jan 2021 14:36:41 -0000
+vti_filesize:IR|15116
 vti_cachedtitle:SR|ORDER FORM
 vti_cachedbodystyle:SR|<body>
 vti_cachedlinkinfo:VX|H|../HOME/HOME.html

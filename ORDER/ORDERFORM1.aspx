@@ -91,7 +91,7 @@ a {
 <div id="div2">
 <h3 style="text-align: center">ORDER FORM</h3>
 </div>
-<form id="form1" runat="server" method="post">
+<form id="form1" runat="server" method="post" >
 	<table style="width: 80%" class="auto-style6">
 		<tr>
 			<td style="width: 237px" class="auto-style9">Full Name</td>
@@ -250,7 +250,7 @@ a {
 		<tr>
 			<td style="width: 237px" class="auto-style9">Date &amp; Time</td>
 			<td class="auto-style9">
-			<!--webbot bot="Timestamp" S-Type="EDITED" S-Format="%d/%m/%y %H:%M:%S" startspan -->13/07/20 18:16:44<!--webbot bot="Timestamp" endspan i-checksum="26201" -->&nbsp;</td>
+			<!--webbot bot="Timestamp" S-Type="EDITED" S-Format="%d/%m/%y %H:%M:%S" startspan -->15/01/21 20:06:41<!--webbot bot="Timestamp" endspan i-checksum="26188" -->&nbsp;</td>
 		</tr>
 		<tr>
 			<td style="width: 237px" class="auto-style9">Account Name</td>

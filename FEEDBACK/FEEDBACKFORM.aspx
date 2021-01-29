@@ -126,7 +126,7 @@ function FrontPage_Form1_Validator(theForm)
 <p style="text-align: center; font-family:'Times New Roman', Times, serif;  color: #007A60;"><strong>
 <a href="../HOME/HOME.html">HOME</a></strong></p>
 <h5 style="color: #897358">Copyright © 2020 AASHKA JEWELS. All Rights Reserved.<br>
-Revised: <!--webbot bot="TimeStamp" s-type="EDITED" s-format="%d/%m/%y" startspan -->10/07/20<!--webbot bot="TimeStamp" endspan i-checksum="12445" -->.</h5>
+Revised: <!--webbot bot="TimeStamp" s-type="EDITED" s-format="%d/%m/%y" startspan -->13/01/21<!--webbot bot="TimeStamp" endspan i-checksum="12483" -->.</h5>
 
 </body>
 

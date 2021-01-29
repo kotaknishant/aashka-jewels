@@ -77,7 +77,7 @@ change it. We thank you for taking the time to help us be a better company.</p>
 <hr>
 <h5>You may return to the order form by using the <em>Back</em> button in your 
 browser.</h5>
-<h5>Revised: <!--webbot bot="TimeStamp" s-type="EDITED" s-format="%m/%d/%y" startspan -->06/30/20<!--webbot bot="TimeStamp" i-checksum="12368" endspan -->.</h5>
+<h5>Revised: <!--webbot bot="TimeStamp" s-type="EDITED" s-format="%m/%d/%y" startspan -->11/21/20<!--webbot bot="TimeStamp" i-checksum="12367" endspan -->.</h5>
 
 </body>
 
