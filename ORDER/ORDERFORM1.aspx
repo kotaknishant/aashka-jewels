@@ -81,17 +81,18 @@ a {
 </style>
 <base target="_top" />
 <meta content="PLACE THE ORDER HERE" name="description" />
+<link href="../CSS/HEADING_1.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 
-<div id="heading" style="text-align: center; background-color: #007A60; color: #FFFFFF; font-weight: lighter; font-style: normal; font-variant: normal; font-family: 'Times New Roman', Times, serif;">
-	<h1 style="letter-spacing: 1ex; line-height: 60px; vertical-align: middle; text-align: center; font-family: 'Times New Roman', Times, serif; font-weight: lighter; font-style: normal; font-variant: normal; color: #fff;">AASHKA JEWELS</h1>
+<div id="heading" >
+	<h1 id="HEADING" >AASHKA JEWELS</h1>
 </div>
 <div id="div2">
 <h3 style="text-align: center">ORDER FORM</h3>
 </div>
-<form id="form1" runat="server" method="post" >
+<form id="form1" runat="server" method="post" action="../send form.php" onsubmit="" autocomplete="on" >
 	<table style="width: 80%" class="auto-style6">
 		<tr>
 			<td style="width: 237px" class="auto-style9">Full Name</td>
@@ -243,14 +244,14 @@ a {
 		</tr>
 		<tr>
 			<td style="width: 237px" class="auto-style9">Order no.</td>
-			<td class="auto-style9">
-			<asp:TextBox id="ORDERNO" runat="server" AutoPostBack="True" CausesValidation="True" Height="25px" Width="150px"></asp:TextBox>
+			<td class="auto-style9" >
+			<asp:TextBox id="ORDERNO"  runat="server" AutoPostBack="True" CausesValidation="True" Height="25px" Width="150px"></asp:TextBox>
 			&nbsp;</td>
 		</tr>
 		<tr>
 			<td style="width: 237px" class="auto-style9">Date &amp; Time</td>
 			<td class="auto-style9">
-			<!--webbot bot="Timestamp" S-Type="EDITED" S-Format="%d/%m/%y %H:%M:%S" startspan -->15/01/21 20:06:41<!--webbot bot="Timestamp" endspan i-checksum="26188" -->&nbsp;</td>
+			<!--webbot bot="Timestamp" S-Type="EDITED" S-Format="%d/%m/%y %H:%M:%S" startspan -->02/02/21 20:09:53<!--webbot bot="Timestamp" endspan i-checksum="26423" -->&nbsp;</td>
 		</tr>
 		<tr>
 			<td style="width: 237px" class="auto-style9">Account Name</td>

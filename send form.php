@@ -8,17 +8,18 @@
 
 <body>
 <?php
-if(isset($_POST['SUBMIT']))[
-$full name =$post['Text1'];
-$Phone=$post['text7'];
-$Email=$post['text8'];
+if(isset($_post['SUBMIT']))[
+$full name =$post['Name'];
+$Phone=$post['Phone'];
+$Email=$post['Email'];
+$Design Code=$POST['DESIGNCODE']
 
 $to='thackerhiten@gmail.com';
 $subject='form submission';
 $message="you have received a new order from $full name.\n".
 $headers = "foom: $ email\r\n":
 mail($to,$subject,$message,]]);
-echo 'Thanks for the submission';
+echo 'Thank you for the order we will contact you shortly';
 }
 ?>
 
