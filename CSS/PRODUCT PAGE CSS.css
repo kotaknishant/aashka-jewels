@@ -1,0 +1,53 @@
+﻿a {
+	color: #FFFFFF;background-color:#007a60
+}
+a:visited {
+	color: #d5c264;background-color:#007a60
+}
+a:active {
+	color: #897358;
+}
+a:hover {
+	color:#ffffff;background-color:#007a60;
+}
+
+#heading{
+	background-position: 100%;
+	background-size: 100%;
+	background-color: #007A60;
+	font-family: 'Times New Roman', Times, serif;
+	color: #FFFFFF;
+	font-weight: lighter;
+	font-style: normal;
+	text-align: center;
+	letter-spacing: 1ex;
+	line-height: 50px;
+	vertical-align: middle;
+	font-size: xx-large;
+}
+
+#footer{
+	background-position: 100%;
+	background-size: 100%;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	color: #FFFFFF;
+	font-size: large;
+	background-color: #007a60;
+	line-height: 30px;
+	vertical-align: middle;
+	font-weight: lighter;
+	font-style: normal;
+}
+
+#td1{
+	margin: 10px auto 10px auto;
+	border-collapse: separate;
+	border-color: #666;
+	font-family: "Times New Roman", Times, serif;
+	color: #897358;
+	azimuth:center;
+	width:auto;
+	height:auto
+	
+}
