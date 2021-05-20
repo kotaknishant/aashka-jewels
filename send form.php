@@ -17,7 +17,7 @@ $Design Code=$POST['DESIGNCODE']
 $to='thackerhiten@gmail.com';
 $subject='form submission';
 $message="you have received a new order from $full name.\n".
-$headers = "foom: $ email\r\n":
+$headers = "from: $ email\r\n":
 mail($to,$subject,$message,]]);
 echo 'Thank you for the order we will contact you shortly';
 }
