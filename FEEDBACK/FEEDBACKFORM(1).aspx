@@ -34,8 +34,7 @@ a:hover {
 <p>Tell us what you think about our web site, our jewellery, our organization, 
 or anything else that comes to mind. We welcome all of your comments and 
 suggestions.</p>
-
-<!--webbot BOT="GeneratedScript" PREVIEW=" " startspan --><script Language="JavaScript" Type="text/javascript"><!--
+	<!--webbot BOT="GeneratedScript" PREVIEW=" " startspan --><script Language="JavaScript" Type="text/javascript"><!--
 function FrontPage_Form1_Validator(theForm)
 {
 
@@ -61,8 +60,8 @@ function FrontPage_Form1_Validator(theForm)
   }
   return (true);
 }
-//--></script><!--webbot BOT="GeneratedScript" endspan --><form method="POST" name="FrontPage_Form1" language="JavaScript" onsubmit="return FrontPage_Form1_Validator(this)">
-	
+//--></script><!--webbot BOT="GeneratedScript" endspan --><form method="POST" action="FEEDBACKFORM(1).aspx" onSubmit="return FrontPage_Form1_Validator(this)" language="JavaScript" name="FrontPage_Form1" webbot-action="--WEBBOT-SELF--">
+	<!--webbot bot="SaveResults" u-file="_private/feedback.txt"  S-Builtin-Fields="REMOTE_NAME REMOTE_USER HTTP_USER_AGENT Date Time" startspan U-Confirmation-Url="FEEDBACK ACKNOWLEDGEMENT.aspx" B-Email-Label-Fields="TRUE" B-Reverse-Chronology="FALSE" S-Date-Format="%d %B %Y" S-Email-Address="thackerhiten@gmail.com" S-Email-Format="TEXT/PRE" S-Format="TEXT/PRE" S-Label-Fields="TRUE" S-Time-Format="%H:%M:%S %Z" U-File="../_private/FEEDBACKFORM.txt" --><!--webbot bot="SaveResults" endspan i-checksum="0" -->
 	<p><strong>What kind of comment would you like to send?</strong></p>
 	<dl>
 		<dd><input type="radio" name="MessageType" value="Complaint">Complaint
@@ -103,10 +102,13 @@ function FrontPage_Form1_Validator(theForm)
 				<input type="text" size="35" maxlength="256" name="UserEmail"></td>
 			</tr>
 			<tr>
-				<td>Mobile Number</td>
+				<td>Tel</td>
 				<td><input type="text" size="35" maxlength="256" name="UserTel"></td>
 			</tr>
-			
+			<tr>
+				<td>FAX</td>
+				<td><input type="text" size="35" maxlength="256" name="UserFAX"></td>
+			</tr>
 		</table>
 		</dd>
 	</dl>
@@ -115,25 +117,16 @@ function FrontPage_Form1_Validator(theForm)
 		<input type="checkbox" name="ContactRequested" value="ContactRequested"> 
 		Please contact me as soon as possible regarding this matter.</dd>
 	</dl>
-	<p><input type="submit" value="Submit Comments" runat="server" name="subform">
+	<p><input type="submit" value="Submit Comments" runat="server">
 	<input type="reset" value="Clear Form" runat="server"></p>
 </form>
 </div>
-
-
-
-<script language="Javascript">
-
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbwuroNaVQONcM9DISHko0zSaxKU5DwKrh69DpzKSPKUABrDVaEOofAUlYuN90TNRQJu/exec'
-    const form = document.forms['aashkajewelsfeedback']
-  
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => console.log('Success!', response))
-        .catch(error => console.error('Error!', error.message))
-    })
-  </script>
+<hr>
+<br>
+<p style="text-align: center; font-family:'Times New Roman', Times, serif;  color: #007A60;"><strong>
+<a href="../HOME/HOME.html">HOME</a></strong></p>
+<h5 style="color: #897358">Copyright © 2020 AASHKA JEWELS. All Rights Reserved.<br>
+Revised: <!--webbot bot="TimeStamp" s-type="EDITED" s-format="%d/%m/%y" startspan -->27/01/24<!--webbot bot="TimeStamp" endspan i-checksum="12876" -->.</h5>
 
 </body>
 
