@@ -105,7 +105,7 @@ function FrontPage_Form1_Validator(theForm)
   }
   return (true);
 }
-//--></script><!--webbot BOT="GeneratedScript" endspan --><form  method="POST" action="FEEDBACK ACKNOWLEDGEMENT.aspx" name="FrontPage_Form1" runat="server" language="JavaScript" onsubmit="return FrontPage_Form1_Validator(this)">
+//--></script><!--webbot BOT="GeneratedScript" endspan --><form  method="POST" action="FEEDBACK ACKNOWLEDGEMENT.htm" name="FrontPage_Form1" runat="server" language="JavaScript" onsubmit="return FrontPage_Form1_Validator(this)">
 	
 	<p><strong>What kind of comment would you like to send?</strong></p>
 	<dl>
