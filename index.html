@@ -299,15 +299,38 @@ Step inside a store and discover a magnificent display of natural wonders. From 
 <br>
 <h5 style="color: #897358; font-weight: lighter; font-style: normal;margin-left:10px">
 <span>Copyright © 2020 AASHKA JEWELS. All Rights Reserved.</span><br>
-<span>Revised:<!--webbot bot="TimeStamp" s-type="EDITED" s-format="%d/%m/%y" startspan -->07/02/24<!--webbot bot="TimeStamp" endspan i-checksum="12890" --></span>.</h5>
+<span>Revised:<!--webbot bot="TimeStamp" s-type="EDITED" s-format="%d/%m/%y" startspan -->11/02/24<!--webbot bot="TimeStamp" endspan i-checksum="12879" --></span>.</h5>
 
 
 <!-- Start of SimpleHitCounter Code -->
 <div class="container">
-            <p> <span id="counter">00000</span></p>
-        </div>
-        <script src="hitcounter script.js"></script>
+            <p> <span id="counter">0</span></p>
+                   <script runat="server">
+<!--webbot bot="HitCounter" i-image="2" I-ResetValue="0" I-Digits="5" U-Custom="HOME.html" -->
 
+function setCounter() {
+    let counter = localStorage.getItem('counter');
+    if (counter === null) {
+        counter = 0;
+    } else {
+        counter = parseInt(counter);
+    }
+
+    // Update the counter on the webpage
+    document.getElementById('counter').innerText = counter;
+    
+    // Increment the counter and store it back in localStorage
+    counter++;
+    localStorage.setItem('counter', counter);
+}
+
+// Call setCounter when the page loads
+document.addEventListener('DOMContentLoaded', setCounter);
+</script>
+
+       
+      
+ </div>
 <!-- End of SimpleHitCounter Code -->
 
 

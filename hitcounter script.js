@@ -3,7 +3,7 @@
 function setCounter() {
     let counter = localStorage.getItem('counter');
     if (counter === null) {
-        counter = 0;
+        counter = 0+1;
     } else {
         counter = parseInt(counter);
     }

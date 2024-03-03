@@ -35,7 +35,7 @@
 	border-top-width: 1px;
 	border-bottom-style: solid;
 	border-bottom-width: medium;
-	empty-cells: hide;
+	empty-cells:hide;
 	width: auto;
 	margin-top: 40px;
 	height: auto;
@@ -52,6 +52,7 @@
 	text-align: center;
 	azimuth:center;
 	caption-side:bottom;
+	
 	
 }
 
@@ -124,6 +125,9 @@ a {
 		  text-align: center; 
 		  margin-top: 0px;
 		  azimuth:center;
+		  border-width:1px
+		  1px
+		  ;border-color:#666
 	
 }
 
